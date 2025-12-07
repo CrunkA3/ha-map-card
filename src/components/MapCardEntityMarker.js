@@ -14,6 +14,7 @@ export default class MapCardEntityMarker extends LitElement {
       'size': {type: Number},
       'tapAction': {type: Object, attribute: 'tap-action'},
       'extraCssClasses': {type: String, attribute: 'extra-css-classes'},
+      'trackAttribute': { type: Array, attribute: 'track-attribute' }
     };
   }
 
@@ -100,3 +101,4 @@ export default class MapCardEntityMarker extends LitElement {
     `;
   }
 }
+
